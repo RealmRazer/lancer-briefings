@@ -1,0 +1,19 @@
+{
+  "initialSlug": "001",
+  "planetPath": "/planet.webm",
+  "animate": true,
+  "defaultTitle": "MSMC |",
+  "icon": "/faction-logos/msmc.svg",
+  "header": {
+    "planet": "Thoran-4 'Neu Fae'",
+    "year": "5019u",
+    "system": "Thoran",
+    "gate": "Rào Cỏ",
+    "ring": "Annamite",
+    "headerTitle": "Mirrorsmoke",
+    "headerSubtitle": "Mercenary Company",
+    "subheaderTitle": "Contract Work",
+    "subheaderSubtitle": "Romeo-Foxtrot-Alfa-Charlie"
+  },
+  "pilotSpecialInfo": {}
+}
