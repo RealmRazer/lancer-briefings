@@ -1,0 +1,451 @@
+{
+  "id": "dc4e9ad2-b2e9-4675-a011-00d4963646bf",
+  "level": 1,
+  "callsign": "Tarman",
+  "name": "Bernard Deland",
+  "player_name": "",
+  "status": "Active",
+  "dead": false,
+  "text_appearance": "",
+  "notes": "",
+  "history": "",
+  "quirks": [],
+  "current_hp": 10,
+  "background": "\"Anti-flora Burn Squad\" Pilot",
+  "resistances": [],
+  "mechs": [
+    {
+      "id": "2caa7aff-5620-409f-a412-64e001f1f766",
+      "name": "Redwood",
+      "notes": "",
+      "gm_note": "",
+      "frame": "mf_sagarmatha",
+      "active": false,
+      "current_structure": 4,
+      "current_move": 4,
+      "boost": 0,
+      "current_hp": 17,
+      "overshield": 0,
+      "current_stress": 4,
+      "current_heat": 0,
+      "current_repairs": 5,
+      "current_overcharge": 0,
+      "current_core_energy": 1,
+      "statuses": [],
+      "conditions": [],
+      "resistances": [],
+      "reactions": [],
+      "burn": 0,
+      "destroyed": false,
+      "defeat": "",
+      "activations": 1,
+      "meltdown_imminent": false,
+      "reactor_destroyed": false,
+      "core_active": false,
+      "cc_ver": "ERR",
+      "lastModified": "Sun Feb 22 2026 16:06:39 GMT-0800 (Pacific Standard Time)",
+      "isDeleted": false,
+      "expireTime": "",
+      "deleteTime": "",
+      "portrait": "",
+      "cloud_portrait": "",
+      "loadouts": [
+        {
+          "id": "3d0433ee-5972-45af-a825-1d3beba35a90",
+          "name": "Primary",
+          "systems": [
+            {
+              "id": "ms_explosive_vents",
+              "uses": 0,
+              "destroyed": false,
+              "cascading": false,
+              "flavorName": "",
+              "flavorDescription": "With the right tweaks, it becomes possible to dump excess heat into the area directly surrounding a chassis. Explosive venting is an unsanctioned, unsafe method of sudden cooling that has nevertheless been adopted by many pilots."
+            },
+            {
+              "id": "ms_type_3_projected_shield",
+              "uses": 0,
+              "destroyed": false,
+              "cascading": false,
+              "flavorName": "",
+              "flavorDescription": "The GMS Type-3 Projected Shield traps and denies incoming projectiles by projecting an aggressive, superpositional anti-ballistic barrier."
+            },
+            {
+              "id": "ms_custom_paint_job",
+              "uses": 0,
+              "destroyed": false,
+              "cascading": false,
+              "flavorName": "",
+              "flavorDescription": ""
+            },
+            {
+              "id": "ms_expanded_compartment",
+              "uses": 0,
+              "destroyed": false,
+              "cascading": false,
+              "flavorName": "",
+              "flavorDescription": ""
+            },
+            {
+              "id": "ms_personalizations",
+              "uses": 0,
+              "destroyed": false,
+              "cascading": false,
+              "flavorName": "",
+              "flavorDescription": ""
+            }
+          ],
+          "integratedSystems": [],
+          "mounts": [
+            {
+              "mount_type": "Main",
+              "lock": false,
+              "slots": [
+                {
+                  "size": "Main",
+                  "weapon": {
+                    "id": "mw_shotgun",
+                    "destroyed": false,
+                    "cascading": false,
+                    "loaded": true,
+                    "mod": null,
+                    "flavorName": "",
+                    "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-I (T-1) line is defined by powerful, reliable, and conventional-kinetic ranged and melee weapons, including the GMS assault rifle, heavy machine gun, shotgun, pistol, and various light and heavy blades. Reliable galactic standards, the GMS T-1 line is the most widely used mech-scale line of weaponry across the galaxy. Echoing the Everest’s design notes, T-1 weapons are simply designed, with few (if any) moving parts, intended to be used in or adaptable to any environment.",
+                    "customDamageType": null,
+                    "maxUseOverride": 0,
+                    "uses": 0,
+                    "selectedProfile": 0
+                  }
+                }
+              ],
+              "extra": [],
+              "bonus_effects": [],
+              "modifiable": true
+            },
+            {
+              "mount_type": "Flex",
+              "lock": false,
+              "slots": [
+                {
+                  "size": "Flex",
+                  "weapon": {
+                    "id": "mw_missile_rack",
+                    "destroyed": false,
+                    "cascading": false,
+                    "loaded": true,
+                    "mod": null,
+                    "flavorName": "",
+                    "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                    "customDamageType": null,
+                    "maxUseOverride": 0,
+                    "uses": 0,
+                    "selectedProfile": 0
+                  }
+                }
+              ],
+              "extra": [
+                {
+                  "size": "Auxiliary",
+                  "weapon": {
+                    "id": "mw_missile_rack",
+                    "destroyed": false,
+                    "cascading": false,
+                    "loaded": true,
+                    "mod": null,
+                    "flavorName": "",
+                    "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                    "customDamageType": null,
+                    "maxUseOverride": 0,
+                    "uses": 0,
+                    "selectedProfile": 0
+                  }
+                }
+              ],
+              "bonus_effects": [],
+              "modifiable": true
+            },
+            {
+              "mount_type": "Heavy",
+              "lock": false,
+              "slots": [
+                {
+                  "size": "Heavy",
+                  "weapon": {
+                    "id": "mw_krakatoa_thermobaric_flamethrower",
+                    "destroyed": false,
+                    "cascading": false,
+                    "loaded": true,
+                    "mod": null,
+                    "flavorName": "",
+                    "flavorDescription": "Between the thick arboreal environment of Hercynia, the swarm tactics of the Egregorians, and the ineffectual performance of slug ammunition, the need for wide-effect weapons was apparent. GMS quick developed the Krakatoa – a thermobaric flamethrower – and disseminated it to affiliates. The Krakatoa was quickly adopted by Union’s Marine Expeditionary Forces, seeing heavy use in the depths of the Hercynian continental jungles thanks to its stability, reliability, and stopping power.<br>Later reworked and adopted by the Armory following the resolution of the Hercynian Crisis, the Krakatoa has become a popular tool for the creation of area-of-denial firebreaks.",
+                    "customDamageType": null,
+                    "maxUseOverride": 0,
+                    "uses": 0,
+                    "selectedProfile": 0
+                  }
+                }
+              ],
+              "extra": [],
+              "bonus_effects": [],
+              "modifiable": true
+            }
+          ],
+          "integratedMounts": [],
+          "improved_armament": {
+            "mount_type": "Flex",
+            "lock": false,
+            "slots": [
+              {
+                "size": "Flex",
+                "weapon": null
+              }
+            ],
+            "extra": [
+              {
+                "size": "Auxiliary",
+                "weapon": null
+              }
+            ],
+            "bonus_effects": [],
+            "modifiable": true
+          },
+          "superheavy_mounting": {
+            "mount_type": "Superheavy",
+            "lock": false,
+            "slots": [
+              {
+                "size": "Superheavy",
+                "weapon": null
+              }
+            ],
+            "extra": [],
+            "bonus_effects": [],
+            "modifiable": true
+          },
+          "integratedWeapon": {
+            "mount_type": "Aux",
+            "lock": false,
+            "slots": [
+              {
+                "size": "Auxiliary",
+                "weapon": null
+              }
+            ],
+            "extra": [],
+            "bonus_effects": [],
+            "modifiable": true
+          },
+          "extraMounts": [],
+          "extraIntegratedMounts": []
+        }
+      ],
+      "active_loadout_index": 0,
+      "counter_data": [],
+      "custom_counters": []
+    }
+  ],
+  "cc_ver": "",
+  "special_equipment": {
+    "PilotGear": [],
+    "Frames": [],
+    "MechWeapons": [],
+    "WeaponMods": [],
+    "MechSystems": [],
+    "SystemMods": []
+  },
+  "combat_history": {
+    "moves": 0,
+    "kills": 0,
+    "damage": 0,
+    "hp_damage": 0,
+    "structure_damage": 0,
+    "overshield": 0,
+    "heat_damage": 0,
+    "reactor_damage": 0,
+    "overcharge_uses": 0,
+    "core_uses": 0
+  },
+  "state": {
+    "active_mech_id": "",
+    "remote_mech_id": "",
+    "stage": "Narrative",
+    "turn": 1,
+    "actions": 2,
+    "braced": false,
+    "overcharged": false,
+    "prepare": false,
+    "bracedCooldown": false,
+    "redundant": false,
+    "stats": {
+      "moves": 0,
+      "kills": 0,
+      "damage": 0,
+      "hp_damage": 0,
+      "structure_damage": 0,
+      "overshield": 0,
+      "heat_damage": 0,
+      "reactor_damage": 0,
+      "overcharge_uses": 0,
+      "core_uses": 0
+    },
+    "deployed": []
+  },
+  "lastModified": "Sun Feb 22 2026 16:15:26 GMT-0800 (Pacific Standard Time)",
+  "isDeleted": false,
+  "expireTime": "",
+  "deleteTime": "",
+  "lastUpdate_cloud": "",
+  "lastSync": "",
+  "skills": [
+    {
+      "id": "sk_assault",
+      "rank": 1
+    },
+    {
+      "id": "Brun it down",
+      "rank": 2,
+      "custom": true,
+      "custom_desc": "Use fire to remove a flammable obstacle",
+      "custom_detail": "Blah blah blah"
+    },
+    {
+      "id": "sk_spot",
+      "rank": 1
+    },
+    {
+      "id": "sk_stay_cool",
+      "rank": 1
+    }
+  ],
+  "talents": [
+    {
+      "id": "t_house_guard",
+      "rank": 2
+    },
+    {
+      "id": "t_combined_arms",
+      "rank": 1
+    },
+    {
+      "id": "t_vanguard",
+      "rank": 1
+    }
+  ],
+  "mechSkills": [
+    3,
+    0,
+    0,
+    0
+  ],
+  "counter_data": [],
+  "custom_counters": [],
+  "core_bonuses": [],
+  "licenses": [
+    {
+      "id": "mf_genghis",
+      "rank": 1
+    }
+  ],
+  "reserves": [],
+  "orgs": [],
+  "bondId": "ktb-bond-titan",
+  "xp": 0,
+  "stress": 0,
+  "isBroken": false,
+  "burdens": [],
+  "bondPowers": [
+    {
+      "name": "The Wall",
+      "description": "If you stand in defense of another person, they cannot take Stress while you are still conscious and you remain within arm’s reach. Instead, you take Stress each time they would take stress. You can’t take any action or concentrate on anything else while defending someone."
+    }
+  ],
+  "powerSelections": 0,
+  "maxStress": 8,
+  "bondAnswers": [
+    null,
+    null
+  ],
+  "minorIdeal": "",
+  "clocks": [],
+  "portrait": "",
+  "cloud_portrait": "https://d2c79xe1p61csc.cloudfront.net/pilots/wampire_9.png",
+  "loadout": {
+    "id": "8e8b00c5-2fca-4440-ab57-ed75214dd82c",
+    "name": "Primary",
+    "armor": [
+      {
+        "id": "pg_heavy_hardsuit",
+        "destroyed": false,
+        "uses": 0,
+        "cascading": false,
+        "flavorName": "",
+        "flavorDescription": "The heaviest hardsuits. They are always powered and up-armored with thick, composite armor. Heavy hardsuits often feature integrated weapons, powerful mobility suites, and – by augmenting their user’s strength – allow their user to field much heavier weapons than normal infantry can typically carry. Heavy hardsuits are in decline now that half-size chassis are popular, but they are still common among private militaries and middle-tier Diasporan armed forces.",
+        "customDamageType": null
+      }
+    ],
+    "weapons": [
+      {
+        "id": "pg_heavy_signature",
+        "destroyed": false,
+        "uses": 0,
+        "cascading": false,
+        "flavorName": "",
+        "flavorDescription": "Heavy signature weapons are missile tubes, heavy lasers, light machine gun, or exotic rifles.",
+        "customDamageType": null
+      },
+      {
+        "id": "fgtspg_breach_cutter",
+        "destroyed": false,
+        "uses": 0,
+        "cascading": false,
+        "flavorName": "",
+        "flavorDescription": "Modified man-portable laser cutting tools are often employed by pirates, gladiators, and the desperate as a highly effective, if crude and cumbersome, weapon. Inspired by this, C&H offers a refined weaponized adaptation designed from the ground up as a combateffective system boasting a high-capacity power pack and streamlined design. Though the beam remains effective at range, it excels in close-quarters high-risk hull breaching operations. Users are advised to wear suitable eye protection when employing this weapon.",
+        "customDamageType": null
+      }
+    ],
+    "gear": [
+      {
+        "id": "mk6_impact_shield_maxt",
+        "destroyed": false,
+        "uses": 0,
+        "cascading": false,
+        "flavorName": "",
+        "flavorDescription": "<div><em>A bulky, disposable shield generator capable of deflecting a single attack from mech-scale weaponry.</em></div><div>When you would take damage from any source, you may instead reduce the damage to zero as a Reaction. Once used, this gear is expended.</div>",
+        "customDamageType": null
+      },
+      {
+        "id": "pg_thermite_charge",
+        "destroyed": false,
+        "uses": 1,
+        "cascading": false,
+        "flavorName": "",
+        "flavorDescription": "",
+        "customDamageType": null
+      },
+      {
+        "id": "fgtspg_triage_stim",
+        "destroyed": false,
+        "uses": 1,
+        "cascading": false,
+        "flavorName": "",
+        "flavorDescription": "Often integrated into personal armor or hardsuits, a triage stim unit monitors the user's vital signs and activates upon detecting critical physical trauma. Automatic injectors administer a potent cocktail of painkillers, stimulants, quick-clotting agents, and pharmastabilizers, which can be further supplemented with broad-spectrum antitoxins, tailored chemical agent antidotes, or anti-radiation doseages based on theater-specific threat assessments. While this is no substitute for proper medical attention, the window of opportunity it provides in the field is sufficient to stabilize patients long enough for further aid to be administered. Whenever you are reduced to 0 HP or less, you may expend a charge to automatically become Down and Out instead of rolling.",
+        "customDamageType": null
+      }
+    ],
+    "extendedWeapons": [
+      null
+    ],
+    "extendedGear": [
+      null,
+      null
+    ]
+  },
+  "brews": [
+    {
+      "LcpId": "MMhitef+jvmY2uy9kdaCSXKJSeA=",
+      "LcpName": "Lancer Wallflower Data",
+      "LcpVersion": "2.1.0",
+      "Website": "https://massif-press.itch.io/no-room-for-a-wallflower-act-1"
+    }
+  ]
+}

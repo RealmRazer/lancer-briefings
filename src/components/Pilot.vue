@@ -140,6 +140,7 @@ import nrfawData from 'lancer-nrfaw-data'
 import longrimData from 'lancer-longrim-data'
 
 import wallflowerData from '@/assets/LCPs/wallflower-data-2.0.5'
+import suldanData from '@/assets/LCPs/Field_Guide_To_Suldan_2.2.6'
 /*Append the datasets within computed if your LCP has new items.
 EX:
 pilotGear() {
@@ -185,25 +186,25 @@ export default {
       return `/mechs/${this.pilot.callsign.toUpperCase()}.webp`
     },
     pilotGear() {
-      return [...lancerData.pilot_gear]
+      return [...lancerData.pilot_gear, ...wallflowerData.pilot_gear]
     },
     mechWeapons() {
-      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons]
+      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...suldanData.weapons]
     },
     mechSystems() {
-      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems]
+      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...suldanData.systems]
     },
     talents() {
-      return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents]
+      return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents, ...suldanData.talents]
     },
     skills() {
-      return [...lancerData.skills]    
+      return [...lancerData.skills, ...suldanData.skills]    
     },
     bonds() {
       return [...ktbData.bonds]
     },
     frames() {
-      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames]
+      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...suldanData.frames]
     },
     mechManufacturerIcon() {
       if (this.activeMech.manufacturer)
